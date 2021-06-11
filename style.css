@@ -1,0 +1,35 @@
+.text-dark,.text-secondary{
+    font-size:16px;
+  }
+  body{
+    height: 100%;
+  }
+  i{
+    color: grey;
+}
+.header{
+  height: 70px;
+  background-color: rgb(211, 210, 210);
+}
+button{
+  height: 50px;
+}
+.img{
+   width:100px;
+   height: 220px;
+}
+.row{
+  padding-top: 15px;
+}
+.quest,.res1,.res2,.res3{
+  display: none;
+}
+.active{
+  display: block;
+}
+@media screen and (min-width: 480px){
+  body,.model-body {
+    width: 25%;
+    margin: auto;
+  }
+}
